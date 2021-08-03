@@ -7,6 +7,7 @@
 - pkg: LQFP-100
 - core: Cortex-M4/M7
 
+
 # Winner: STM32F722VETx
 
 # canbrd onboard peripherals
