@@ -4,8 +4,10 @@
 - 1x I2C
 - 2x USART
 - USB DFU support
-- pkg: LQFP-64/100/144
+- pkg: LQFP-100
 - core: Cortex-M4/M7
+
+# Winner: STM32F722VETx
 
 # canbrd onboard peripherals
 function | pin count 
@@ -16,7 +18,7 @@ CAN bus | 2
 USB | 2
 user button | 1
 heartbeat LED | 1
-microSD | 4
+microSD (SDIO/SDMMC) | 4
 SWD debug | 2
 debug UART | 2
 HSE Xtal | 2
