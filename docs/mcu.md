@@ -1,5 +1,8 @@
 # Requirements
-- CAN support
+- 1x CAN
+- 2x SPI
+- 1x I2C
+- 2x USART
 - USB DFU support
 - pkg: LQFP-64/100/144
 - core: Cortex-M4
@@ -16,4 +19,4 @@ heartbeat LED | 1
 microSD | 4
 SWD debug | 2
 HSE Xtal | 2
-**sum**: | 32
+**sum**: | **32**
