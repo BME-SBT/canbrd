@@ -4,10 +4,12 @@
 - 1x I2C
 - 2x USART
 - USB DFU support
-- pkg: LQFP-100
+- pkg: LQFP-64/100
 - core: Cortex-M4/M7
 
-# Winner: STM32F722VETx
+# Winner: STM32F722xETx
+- STM32F722RETx: LQFP64, 16 free pins
+- STM32F722VETx: LQFP100, 48 free pins
 
 # canbrd onboard peripherals
 function | pin count 
