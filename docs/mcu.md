@@ -1,6 +1,14 @@
+# Ordering
+Quantity | Part
+---------|-----
+30 | STM32F722VET6
+1 | STLINK-V3SET
+4 | STLINK-V3MINI
+5 | NUCLEO-F722ZE
+
 # Requirements
 - 1x CAN
-- 2x SPI
+- 1x SPI
 - 1x I2C
 - 2x USART
 - USB DFU support
@@ -9,7 +17,7 @@
 
 # Winner: STM32F722xETx
 - STM32F722RETx: LQFP64, 16 free pins
-- STM32F722VETx: LQFP100, 48 free pins
+- **STM32F722VETx: LQFP100, 48 free pins**
 
 # canbrd onboard peripherals
 function | pin count 
