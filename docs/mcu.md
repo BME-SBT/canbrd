@@ -15,6 +15,7 @@ Quantity | Part
 - pkg: LQFP-64/100
 - core: Cortex-M4/M7
 
+stm32g474vetx?
 # Winner: STM32F722xETx
 - STM32F722RETx: LQFP64, 16 free pins
 - **STM32F722VETx: LQFP100, 48 free pins**
