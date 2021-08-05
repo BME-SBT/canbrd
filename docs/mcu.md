@@ -1,10 +1,10 @@
 # Ordering
 Quantity | Part
 ---------|-----
-30 | STM32F722VET6
+30 | STM32G474VET6
 1 | STLINK-V3SET
 4 | STLINK-V3MINI
-5 | NUCLEO-F722ZE
+5 | NUCLEO-G474RE
 
 # Requirements
 - 1x CAN
