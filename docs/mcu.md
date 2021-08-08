@@ -14,12 +14,17 @@ Quantity | Part
 - USB DFU support
 - pkg: LQFP-64/100
 - core: Cortex-M4/M7
-
-stm32g474vetx?
-# Winner: STM32F722xETx
-- STM32F722RETx: LQFP64, 16 free pins
-- **STM32F722VETx: LQFP100, 48 free pins**
-
+# STM32G474VETx
+- 3x FDCAN
+- 4x SPI
+- 4x I2C
+- 3x USART
+- 2x UART
+- 1x USB device
+- 42x ADC in
+- 86x GPIO
+- Cortex-M4@170MHz
+- LQFP-100
 # canbrd onboard peripherals
 function | pin count 
 ---------|-----------
@@ -29,7 +34,7 @@ CAN bus | 2
 USB | 2
 user button | 1
 heartbeat LED | 1
-microSD (SDIO/SDMMC) | 4
+microSD (SPI) | 4
 SWD debug | 2
 debug UART | 2
 HSE Xtal | 2
