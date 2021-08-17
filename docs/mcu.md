@@ -39,3 +39,13 @@ SWD debug | 2
 debug UART | 2
 HSE Xtal | 2
 **sum**: | **34**
+
+# peripheral mapping
+function | peripheral
+---------|-----------
+debug UART | UART4
+microSD SPI | SPI3
+main CAN | FDCAN1
+ext UART | USART1
+ext CAN | FDCAN2
+ext I2C | I2C1

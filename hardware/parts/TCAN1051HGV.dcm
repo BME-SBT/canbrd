@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCAN1051HGV
+D TCAN1051HGV Fault Protected CAN Transceiver with CAN FD
+K can transciever
+F https://www.ti.com/lit/ds/symlink/tcan1051hgv.pdf
+$ENDCMP
+#
+#End Doc Library

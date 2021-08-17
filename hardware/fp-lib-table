@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Wurth-150080M153000)(type KiCad)(uri ${KIPRJMOD}/parts/Wurth-150080M153000)(options "")(descr ""))
+  (lib (name LTD-470)(type KiCad)(uri ${KIPRJMOD}/parts/LTD-470)(options "")(descr ""))
+  (lib (name GDH08S04)(type KiCad)(uri ${KIPRJMOD}/parts/GDH08S04)(options "")(descr ""))
+  (lib (name STM32G474VET6)(type KiCad)(uri ${KIPRJMOD}/parts/STM32G474VET6)(options "")(descr ""))
+)

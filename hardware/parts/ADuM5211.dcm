@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADuM5211
+D Dual-Channel 2.5kV isolator with integrated isoPower dc-dc converter, 1 Input / 1 output, SSOP-20
+K digital isolator galvanic isopower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5210_5211_5212.pdf
+$ENDCMP
+#
+#End Doc Library

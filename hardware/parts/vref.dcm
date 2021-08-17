@@ -1,7 +1,22 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP VREF+
-D Power symbol creates a global label with name "+3.3VA"
+$CMP +3.3VISO
+D Power symbol creates a global label with name "+3.3VISO"
+K power-flag
+$ENDCMP
+#
+$CMP +5VISO
+D Power symbol creates a global label with name "+5VISO"
+K power-flag
+$ENDCMP
+#
+$CMP +VREF
+D Power symbol creates a global label with name "+VREF"
+K power-flag
+$ENDCMP
+#
+$CMP GNDISO
+D Power symbol creates a global label with name "GNDISO"
 K power-flag
 $ENDCMP
 #
