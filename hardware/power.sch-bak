@@ -349,17 +349,6 @@ F 3 "~" H 3500 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Varistor RV?
-U 1 1 6128408C
-P 3850 2950
-F 0 "RV?" H 3953 2996 50  0000 L CNN
-F 1 "30V" H 3953 2905 50  0000 L CNN
-F 2 "" V 3780 2950 50  0001 C CNN
-F 3 "~" H 3850 2950 50  0001 C CNN
-	1    3850 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 6128C2CE
 P 5150 3100
@@ -400,28 +389,14 @@ Connection ~ 3850 2650
 $Comp
 L Device:D_TVS D?
 U 1 1 612A1A78
-P 3150 2950
-F 0 "D?" V 3104 3030 50  0000 L CNN
-F 1 "D_TVS" V 3195 3030 50  0000 L CNN
-F 2 "" H 3150 2950 50  0001 C CNN
-F 3 "~" H 3150 2950 50  0001 C CNN
-	1    3150 2950
+P 5950 2950
+F 0 "D?" V 5904 3030 50  0000 L CNN
+F 1 "SMCJ26CA" V 5995 3030 50  0000 L CNN
+F 2 "" H 5950 2950 50  0001 C CNN
+F 3 "~" H 5950 2950 50  0001 C CNN
+	1    5950 2950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2950 2650 3150 2650
-Wire Wire Line
-	3150 2650 3150 2800
-Wire Wire Line
-	3150 2650 3350 2650
-Connection ~ 3150 2650
-Wire Wire Line
-	2950 3250 3150 3250
-Wire Wire Line
-	3150 3250 3150 3100
-Wire Wire Line
-	3350 3250 3150 3250
-Connection ~ 3150 3250
 $Comp
 L Device:Ferrite_Bead FB?
 U 1 1 612A82A6
@@ -467,17 +442,6 @@ Wire Wire Line
 	5550 2950 5150 2950
 Wire Wire Line
 	5150 2650 5550 2650
-$Comp
-L Device:D_Zener D?
-U 1 1 612DB111
-P 5950 2950
-F 0 "D?" V 5904 3030 50  0000 L CNN
-F 1 "D_Zener" V 5995 3030 50  0000 L CNN
-F 2 "" H 5950 2950 50  0001 C CNN
-F 3 "~" H 5950 2950 50  0001 C CNN
-	1    5950 2950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5950 2650 5950 2800
 Wire Wire Line
@@ -502,5 +466,20 @@ F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 4950 2850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/78984/si3129dv.pdf" H 4750 2750 50  0001 C CNN
 	1    4750 2750
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 2650 3350 2650
+Wire Wire Line
+	2950 3250 3350 3250
+$Comp
+L Device:Varistor RV?
+U 1 1 612F133A
+P 3850 2950
+F 0 "RV?" H 3953 2996 50  0000 L CNN
+F 1 "60V" H 3953 2905 50  0000 L CNN
+F 2 "" V 3780 2950 50  0001 C CNN
+F 3 "~" H 3850 2950 50  0001 C CNN
+	1    3850 2950
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
