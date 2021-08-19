@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Si3129DV
+D P-MOSFET transistor, source/drain/gate, drain connected to mounting plane
+K transistor PMOS P-MOS P-MOSFET
+F https://www.vishay.com/docs/78984/si3129dv.pdf
+$ENDCMP
+#
+#End Doc Library

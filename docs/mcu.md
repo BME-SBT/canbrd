@@ -43,7 +43,7 @@ HSE Xtal | 2
 # peripheral mapping
 function | peripheral
 ---------|-----------
-debug UART | UART4
+debug UART | USART2
 microSD SPI | SPI3
 main CAN | FDCAN1
 ext UART | USART1

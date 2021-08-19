@@ -6,4 +6,5 @@
   (lib (name LTD-4708G)(type Legacy)(uri ${KIPRJMOD}/parts/LTD-470/LTD-4708G.lib)(options "")(descr ""))
   (lib (name 150080M153000)(type Legacy)(uri ${KIPRJMOD}/parts/Wurth-150080M153000/150080M153000.lib)(options "")(descr ""))
   (lib (name LMR50410)(type Legacy)(uri ${KIPRJMOD}/parts/LMR50410.lib)(options "")(descr ""))
+  (lib (name Si3129DV)(type Legacy)(uri ${KIPRJMOD}/parts/Si3129DV.lib)(options "")(descr ""))
 )

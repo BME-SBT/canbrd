@@ -51,7 +51,7 @@ L Device:C_Small C6
 U 1 1 611C3A12
 P 8650 900
 F 0 "C6" H 8750 950 50  0000 L CNN
-F 1 "100nF" H 8750 850 50  0000 L CNN
+F 1 "100n" H 8750 850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8650 900 50  0001 C CNN
 F 3 "~" H 8650 900 50  0001 C CNN
 	1    8650 900 
@@ -62,7 +62,7 @@ L Device:C_Small C7
 U 1 1 611C3B82
 P 9050 900
 F 0 "C7" H 9150 950 50  0000 L CNN
-F 1 "100nF" H 9150 850 50  0000 L CNN
+F 1 "100n" H 9150 850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9050 900 50  0001 C CNN
 F 3 "~" H 9050 900 50  0001 C CNN
 	1    9050 900 
@@ -73,7 +73,7 @@ L Device:C_Small C8
 U 1 1 611C3CD6
 P 9450 900
 F 0 "C8" H 9550 950 50  0000 L CNN
-F 1 "100nF" H 9550 850 50  0000 L CNN
+F 1 "100n" H 9550 850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9450 900 50  0001 C CNN
 F 3 "~" H 9450 900 50  0001 C CNN
 	1    9450 900 
@@ -84,7 +84,7 @@ L Device:C_Small C9
 U 1 1 611C3E2A
 P 9850 900
 F 0 "C9" H 9950 950 50  0000 L CNN
-F 1 "100nF" H 9950 850 50  0000 L CNN
+F 1 "100n" H 9950 850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9850 900 50  0001 C CNN
 F 3 "~" H 9850 900 50  0001 C CNN
 	1    9850 900 
@@ -95,7 +95,7 @@ L Device:C_Small C10
 U 1 1 611C3F90
 P 10250 900
 F 0 "C10" H 10350 950 50  0000 L CNN
-F 1 "100nF" H 10350 850 50  0000 L CNN
+F 1 "100n" H 10350 850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10250 900 50  0001 C CNN
 F 3 "~" H 10250 900 50  0001 C CNN
 	1    10250 900 
@@ -106,7 +106,7 @@ L Device:C_Small C11
 U 1 1 611C40D2
 P 10750 900
 F 0 "C11" H 10850 950 50  0000 L CNN
-F 1 "4.7uF" H 10850 850 50  0000 L CNN
+F 1 "4u7" H 10850 850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10750 900 50  0001 C CNN
 F 3 "~" H 10750 900 50  0001 C CNN
 	1    10750 900 
@@ -169,7 +169,7 @@ L Device:C_Small C15
 U 1 1 611C6E46
 P 10750 1750
 F 0 "C15" H 10850 1800 50  0000 L CNN
-F 1 "1uF" H 10850 1700 50  0000 L CNN
+F 1 "1u" H 10850 1700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10750 1750 50  0001 C CNN
 F 3 "~" H 10750 1750 50  0001 C CNN
 	1    10750 1750
@@ -180,7 +180,7 @@ L Device:C_Small C14
 U 1 1 611C70F8
 P 10250 1750
 F 0 "C14" H 10350 1800 50  0000 L CNN
-F 1 "10nF" H 10350 1700 50  0000 L CNN
+F 1 "10n" H 10350 1700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10250 1750 50  0001 C CNN
 F 3 "~" H 10250 1750 50  0001 C CNN
 	1    10250 1750
@@ -245,7 +245,7 @@ L Device:C_Small C12
 U 1 1 611DA83B
 P 8650 1750
 F 0 "C12" H 8750 1800 50  0000 L CNN
-F 1 "1uF" H 8750 1700 50  0000 L CNN
+F 1 "1u" H 8750 1700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8650 1750 50  0001 C CNN
 F 3 "~" H 8650 1750 50  0001 C CNN
 	1    8650 1750
@@ -256,7 +256,7 @@ L Device:C_Small C13
 U 1 1 611DA841
 P 9150 1750
 F 0 "C13" H 9250 1800 50  0000 L CNN
-F 1 "10nF" H 9250 1700 50  0000 L CNN
+F 1 "10n" H 9250 1700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9150 1750 50  0001 C CNN
 F 3 "~" H 9150 1750 50  0001 C CNN
 	1    9150 1750
@@ -281,9 +281,9 @@ $EndComp
 Connection ~ 10250 1650
 Connection ~ 9150 1850
 Text Label 1450 3000 0    50   ~ 0
-USB-
+USB_D-
 Text Label 1450 3100 0    50   ~ 0
-USB+
+USB_D+
 $Comp
 L STM32G474VET6:STM32G474VET6 U5
 U 1 1 611B31D4
@@ -336,22 +336,18 @@ F 44 "" H 2950 4100 50  0001 L BNN "THERMAL_PAD"
 	1    2950 4100
 	1    0    0    -1  
 $EndComp
-Text Label 4250 2000 2    50   ~ 0
+Text Label 4450 2000 2    50   ~ 0
 CAN_Tx
-Text Label 4250 1900 2    50   ~ 0
+Text Label 4450 1900 2    50   ~ 0
 CAN_Rx
-Wire Wire Line
-	3950 1900 4250 1900
-Wire Wire Line
-	4250 2000 3950 2000
 Text Label 1450 4900 0    50   ~ 0
 ext_CAN_Tx
 Text Label 1450 5000 0    50   ~ 0
 ext_CAN_Rx
 Text Label 1450 3200 0    50   ~ 0
-SWDIO
+dbg_SWDIO
 Text Label 1450 3300 0    50   ~ 0
-SWCLK
+dbg_SWCLK
 $Comp
 L power:+3.3V #PWR0111
 U 1 1 611C4761
@@ -428,14 +424,10 @@ Wire Wire Line
 Wire Wire Line
 	9150 1850 10250 1850
 Connection ~ 10250 1850
-Text Label 4250 5700 2    50   ~ 0
+Text Label 4450 5700 2    50   ~ 0
 OscIn
-Text Label 4250 5800 2    50   ~ 0
+Text Label 4450 5800 2    50   ~ 0
 OscOut
-Wire Wire Line
-	4250 5700 3950 5700
-Wire Wire Line
-	3950 5800 4250 5800
 Text Label 8550 2750 0    50   ~ 0
 OscIn
 Text Label 9550 2750 2    50   ~ 0
@@ -514,11 +506,11 @@ Connection ~ 9250 2750
 Wire Wire Line
 	8550 2750 8850 2750
 Connection ~ 8850 2750
-Text HLabel 1850 4400 0    50   Input ~ 0
+Text HLabel 1450 4400 0    50   Input ~ 0
 Boot0
-Text HLabel 1850 2700 0    50   Output ~ 0
+Text HLabel 1450 2700 0    50   Output ~ 0
 ClkOut
-Text HLabel 1850 1700 0    50   Input ~ 0
+Text HLabel 1450 1700 0    50   Input ~ 0
 nRST
 Text Label 1450 2300 0    50   ~ 0
 ext_SPI_nSS
@@ -538,12 +530,6 @@ Wire Wire Line
 	1950 2600 1450 2600
 Text Notes 1450 2200 0    50   ~ 0
 SPI1
-Wire Wire Line
-	1850 4400 1950 4400
-Wire Wire Line
-	1850 2700 1950 2700
-Wire Wire Line
-	1850 1700 1950 1700
 Wire Wire Line
 	1450 3300 1950 3300
 Wire Wire Line
@@ -591,76 +577,182 @@ F 3 "" H 8650 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8650 1650
-Text Label 1450 6300 0    50   ~ 0
+Text Label 4450 2400 2    50   ~ 0
 dbg_UART_Tx
-Text Label 1450 6400 0    50   ~ 0
+Text Label 4450 2500 2    50   ~ 0
 dbg_UART_Rx
 Wire Wire Line
-	1450 6400 1950 6400
+	4450 2500 3950 2500
 Wire Wire Line
-	1950 6300 1450 6300
-Text Notes 1450 6200 0    50   ~ 0
-UART4
-Text Label 1450 3900 0    50   ~ 0
+	3950 2400 4450 2400
+Text Notes 4450 2300 2    50   ~ 0
+USART2
+Text Label 1450 6300 0    50   ~ 0
 SD_SPI_SCK
-Text Label 1450 4000 0    50   ~ 0
+Text Label 1450 6400 0    50   ~ 0
 SD_SPI_MISO
-Text Label 1450 4100 0    50   ~ 0
+Text Label 1450 6500 0    50   ~ 0
 SD_SPI_MOSI
 Wire Wire Line
-	1450 4100 1950 4100
+	1450 6500 1950 6500
 Wire Wire Line
-	1950 4000 1450 4000
+	1950 6400 1450 6400
 Wire Wire Line
-	1450 3900 1950 3900
+	1450 6300 1950 6300
 Text Label 1450 3400 0    50   ~ 0
 SD_SPI_nSS
 Wire Wire Line
 	1450 3400 1950 3400
-Text Notes 1450 3800 0    50   ~ 0
+Text Notes 1450 6200 0    50   ~ 0
 SPI3
-Text Notes 4250 1800 2    50   ~ 0
+Text Notes 4450 1800 2    50   ~ 0
 FDCAN1
-Text HLabel 5350 1500 0    50   Output ~ 0
+Text HLabel 7400 1150 0    50   Output ~ 0
 Seg_0
-Text HLabel 5350 1600 0    50   Output ~ 0
+Text HLabel 7400 1250 0    50   Output ~ 0
 Seg_1
-Text HLabel 5350 1700 0    50   Output ~ 0
+Text HLabel 7400 1350 0    50   Output ~ 0
 Seg_2
-Text HLabel 5350 1800 0    50   Output ~ 0
+Text HLabel 7400 1450 0    50   Output ~ 0
 Seg_3
-Text HLabel 5350 1900 0    50   Output ~ 0
+Text HLabel 7400 1550 0    50   Output ~ 0
 Seg_4
-Text HLabel 5350 2000 0    50   Output ~ 0
+Text HLabel 7400 1650 0    50   Output ~ 0
 Seg_5
-Text HLabel 5350 2100 0    50   Output ~ 0
+Text HLabel 7400 1750 0    50   Output ~ 0
 Seg_6
-Text HLabel 5350 2200 0    50   Output ~ 0
+Text HLabel 7400 1850 0    50   Output ~ 0
 Seg_7
-Text HLabel 5350 2300 0    50   Output ~ 0
+Text HLabel 7400 1950 0    50   Output ~ 0
 Dig_0
-Text HLabel 5350 2400 0    50   Output ~ 0
+Text HLabel 7400 2050 0    50   Output ~ 0
 Dig_1
-Text HLabel 5350 2650 0    50   Input ~ 0
+Text HLabel 7400 2300 0    50   Input ~ 0
 Sw_0
-Text HLabel 5350 2750 0    50   Input ~ 0
+Text HLabel 7400 2400 0    50   Input ~ 0
 Sw_1
-Text HLabel 5350 2850 0    50   Input ~ 0
+Text HLabel 7400 2500 0    50   Input ~ 0
 Sw_2
-Text HLabel 5350 2950 0    50   Input ~ 0
+Text HLabel 7400 2600 0    50   Input ~ 0
 Sw_3
-Text HLabel 5350 3050 0    50   Input ~ 0
+Text HLabel 7400 2700 0    50   Input ~ 0
 Sw_4
-Text HLabel 5350 3150 0    50   Input ~ 0
+Text HLabel 7400 2800 0    50   Input ~ 0
 Sw_5
-Text HLabel 5350 3250 0    50   Input ~ 0
+Text HLabel 7400 2900 0    50   Input ~ 0
 Sw_6
-Text HLabel 5350 3350 0    50   Input ~ 0
+Text HLabel 7400 3000 0    50   Input ~ 0
 Sw_7
-Text HLabel 5350 3550 0    50   Input ~ 0
+Text HLabel 7400 3200 0    50   Input ~ 0
 UserBtn
-Text HLabel 5350 3750 0    50   Output ~ 0
+Text HLabel 7400 3400 0    50   Output ~ 0
 Heartbeat
-Text HLabel 5350 3850 0    50   Output ~ 0
+Text HLabel 7400 3500 0    50   Output ~ 0
 UserLED
+$Comp
+L Connector:Conn_ST_STDC14 J2
+U 1 1 611C65B7
+P 8100 5200
+F 0 "J2" H 7656 5246 50  0000 R CNN
+F 1 "Conn_ST_STDC14" H 7656 5155 50  0000 R CNN
+F 2 "" H 8100 5200 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf" V 7750 3950 50  0001 C CNN
+	1    8100 5200
+	-1   0    0    -1  
+$EndComp
+Text Label 7100 5700 0    50   ~ 0
+dbg_UART_Tx
+Text Label 7100 5600 0    50   ~ 0
+dbg_UART_Rx
+Wire Wire Line
+	7100 5600 7600 5600
+Wire Wire Line
+	7600 5700 7100 5700
+NoConn ~ 7600 5200
+NoConn ~ 7600 5400
+Text Label 7100 5000 0    50   ~ 0
+dbg_SWDIO
+Text Label 7100 4900 0    50   ~ 0
+dbg_SWCLK
+Wire Wire Line
+	7100 4900 7600 4900
+Wire Wire Line
+	7100 5000 7600 5000
+Text Label 1450 1700 0    50   ~ 0
+nRST
+Wire Wire Line
+	1450 1700 1950 1700
+Text Label 1450 2700 0    50   ~ 0
+ClkOut
+Wire Wire Line
+	1450 2700 1950 2700
+Text Label 1450 4400 0    50   ~ 0
+Boot0
+Wire Wire Line
+	1450 4400 1950 4400
+Wire Wire Line
+	3950 1900 4450 1900
+Wire Wire Line
+	3950 2000 4450 2000
+Wire Wire Line
+	3950 5700 4450 5700
+Wire Wire Line
+	3950 5800 4450 5800
+Text Label 7100 4700 0    50   ~ 0
+nRST
+Wire Wire Line
+	7100 4700 7600 4700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 611FDF2D
+P 8100 4500
+F 0 "#PWR?" H 8100 4350 50  0001 C CNN
+F 1 "+3.3V" H 8115 4673 50  0000 C CNN
+F 2 "" H 8100 4500 50  0001 C CNN
+F 3 "" H 8100 4500 50  0001 C CNN
+	1    8100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6120BE4B
+P 8100 5900
+F 0 "#PWR?" H 8100 5650 50  0001 C CNN
+F 1 "GND" H 8105 5727 50  0000 C CNN
+F 2 "" H 8100 5900 50  0001 C CNN
+F 3 "" H 8100 5900 50  0001 C CNN
+	1    8100 5900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8200 5900
+Text Label 7100 5100 0    50   ~ 0
+dbg_SWO
+Wire Wire Line
+	7100 5100 7600 5100
+Text Label 1450 3900 0    50   ~ 0
+dbg_SWO
+Wire Wire Line
+	1450 3900 1950 3900
+Text Label 1450 4000 0    50   ~ 0
+UCPD_CC2
+Text Label 1450 4200 0    50   ~ 0
+UCPD_CC1
+Wire Wire Line
+	1450 4200 1950 4200
+Wire Wire Line
+	1950 4000 1450 4000
+Text Notes 700  3500 1    50   ~ 0
+No external termination needed\ndatasheet p.180
+Text HLabel 1450 3000 0    50   BiDi ~ 0
+USB_D-
+Text HLabel 1450 3100 0    50   BiDi ~ 0
+USB_D+
+Text HLabel 1450 4000 0    50   BiDi ~ 0
+USB_CC2
+Text HLabel 1450 4200 0    50   BiDi ~ 0
+USB_CC1
+Text HLabel 4450 1900 2    50   Input ~ 0
+CAN_Rx
+Text HLabel 4450 2000 2    50   Output ~ 0
+CAN_Tx
 $EndSCHEMATC

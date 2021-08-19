@@ -1,4 +1,4 @@
-18936581684849742
+18939839895529108
 1043
 1043
 1043
@@ -51582,6 +51582,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+GDH08S04
+SOIC127P813X256-16N
+GDH08S04
+Switch
+0
+16
+16
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -75193,6 +75200,13 @@ SOIC_clipProgSmall
 0
 8
 8
+STM32G474VET6
+QFP50P1600X1600X160-100N
+
+
+0
+100
+100
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
