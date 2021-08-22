@@ -7,4 +7,7 @@
   (lib (name 150080M153000)(type Legacy)(uri ${KIPRJMOD}/parts/Wurth-150080M153000/150080M153000.lib)(options "")(descr ""))
   (lib (name LMR50410)(type Legacy)(uri ${KIPRJMOD}/parts/LMR50410.lib)(options "")(descr ""))
   (lib (name Si3129DV)(type Legacy)(uri ${KIPRJMOD}/parts/Si3129DV.lib)(options "")(descr ""))
+  (lib (name TBU-CA065-200-WH)(type Legacy)(uri ${KIPRJMOD}/parts/TBU-CA/TBU-CA065-200-WH.lib)(options "")(descr ""))
+  (lib (name hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/hardware-rescue.lib)(options "")(descr ""))
+  (lib (name MAX17521ATG_)(type Legacy)(uri ${KIPRJMOD}/parts/MAX17521/MAX17521ATG_.lib)(options "")(descr ""))
 )
