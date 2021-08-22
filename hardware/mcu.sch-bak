@@ -511,7 +511,7 @@ Boot0
 Text HLabel 1450 2700 0    50   Output ~ 0
 ClkOut
 Text HLabel 1450 1700 0    50   Input ~ 0
-nRST
+nReset
 Text Label 1450 2300 0    50   ~ 0
 ext_SPI_nSS
 Text Label 1450 2400 0    50   ~ 0
@@ -607,42 +607,6 @@ Text Notes 1450 6200 0    50   ~ 0
 SPI3
 Text Notes 4450 1800 2    50   ~ 0
 FDCAN1
-Text HLabel 7400 1150 0    50   Output ~ 0
-Seg_0
-Text HLabel 7400 1250 0    50   Output ~ 0
-Seg_1
-Text HLabel 7400 1350 0    50   Output ~ 0
-Seg_2
-Text HLabel 7400 1450 0    50   Output ~ 0
-Seg_3
-Text HLabel 7400 1550 0    50   Output ~ 0
-Seg_4
-Text HLabel 7400 1650 0    50   Output ~ 0
-Seg_5
-Text HLabel 7400 1750 0    50   Output ~ 0
-Seg_6
-Text HLabel 7400 1850 0    50   Output ~ 0
-Seg_7
-Text HLabel 7400 1950 0    50   Output ~ 0
-Dig_0
-Text HLabel 7400 2050 0    50   Output ~ 0
-Dig_1
-Text HLabel 7400 2300 0    50   Input ~ 0
-Sw_0
-Text HLabel 7400 2400 0    50   Input ~ 0
-Sw_1
-Text HLabel 7400 2500 0    50   Input ~ 0
-Sw_2
-Text HLabel 7400 2600 0    50   Input ~ 0
-Sw_3
-Text HLabel 7400 2700 0    50   Input ~ 0
-Sw_4
-Text HLabel 7400 2800 0    50   Input ~ 0
-Sw_5
-Text HLabel 7400 2900 0    50   Input ~ 0
-Sw_6
-Text HLabel 7400 3000 0    50   Input ~ 0
-Sw_7
 Text HLabel 7400 3200 0    50   Input ~ 0
 UserBtn
 Text HLabel 7400 3400 0    50   Output ~ 0
@@ -655,7 +619,7 @@ U 1 1 611C65B7
 P 8100 5200
 F 0 "J2" H 7656 5246 50  0000 R CNN
 F 1 "Conn_ST_STDC14" H 7656 5155 50  0000 R CNN
-F 2 "" H 8100 5200 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD" H 8100 5200 50  0001 C CNN
 F 3 "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf" V 7750 3950 50  0001 C CNN
 	1    8100 5200
 	-1   0    0    -1  
@@ -755,4 +719,40 @@ Text HLabel 4450 1900 2    50   Input ~ 0
 CAN_Rx
 Text HLabel 4450 2000 2    50   Output ~ 0
 CAN_Tx
+Text HLabel 7400 1200 0    50   Output ~ 0
+SegA
+Text HLabel 7400 1300 0    50   Output ~ 0
+SegB
+Text HLabel 7400 1400 0    50   Output ~ 0
+SegC
+Text HLabel 7400 1500 0    50   Output ~ 0
+SegD
+Text HLabel 7400 1600 0    50   Output ~ 0
+SegE
+Text HLabel 7400 1700 0    50   Output ~ 0
+SegF
+Text HLabel 7400 1800 0    50   Output ~ 0
+SegG
+Text HLabel 7400 1900 0    50   Output ~ 0
+SegDP
+Text HLabel 7400 2000 0    50   Output ~ 0
+Dig1
+Text HLabel 7400 2100 0    50   Output ~ 0
+Dig2
+Text HLabel 7400 2300 0    50   Input ~ 0
+Sw0
+Text HLabel 7400 2400 0    50   Input ~ 0
+Sw1
+Text HLabel 7400 2500 0    50   Input ~ 0
+Sw2
+Text HLabel 7400 2600 0    50   Input ~ 0
+Sw3
+Text HLabel 7400 2700 0    50   Input ~ 0
+Sw4
+Text HLabel 7400 2800 0    50   Input ~ 0
+Sw5
+Text HLabel 7400 2900 0    50   Input ~ 0
+Sw6
+Text HLabel 7400 3000 0    50   Input ~ 0
+Sw7
 $EndSCHEMATC

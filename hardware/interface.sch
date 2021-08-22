@@ -43,19 +43,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5150 51
 	1    5000 5100
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:VBUS #PWR?
-U 1 1 612683F8
-P 4300 4400
-AR Path="/6119258E/612683F8" Ref="#PWR?"  Part="1" 
-AR Path="/611925EA/612683F8" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 4300 4250 50  0001 C CNN
-F 1 "VBUS" H 4315 4573 50  0000 C CNN
-F 2 "" H 4300 4400 50  0001 C CNN
-F 3 "" H 4300 4400 50  0001 C CNN
-	1    4300 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 4400 4300 4500
 Wire Wire Line
@@ -79,40 +66,27 @@ NoConn ~ 4400 5700
 $Comp
 L Power_Protection:USBLC6-4SC6 U?
 U 1 1 61268409
-P 4700 6750
+P 8400 5150
 AR Path="/6119258E/61268409" Ref="U?"  Part="1" 
 AR Path="/611925EA/61268409" Ref="U3"  Part="1" 
-F 0 "U3" H 5000 7200 50  0000 C CNN
-F 1 "USBLC6-4SC6" H 5050 7100 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4700 6250 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/usblc6-4.pdf" H 4900 7100 50  0001 C CNN
-	1    4700 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VBUS #PWR?
-U 1 1 6126840F
-P 4700 6350
-AR Path="/6119258E/6126840F" Ref="#PWR?"  Part="1" 
-AR Path="/611925EA/6126840F" Ref="#PWR018"  Part="1" 
-F 0 "#PWR018" H 4700 6200 50  0001 C CNN
-F 1 "VBUS" H 4715 6523 50  0000 C CNN
-F 2 "" H 4700 6350 50  0001 C CNN
-F 3 "" H 4700 6350 50  0001 C CNN
-	1    4700 6350
+F 0 "U3" H 8700 5600 50  0000 C CNN
+F 1 "USBLC6-4SC6" H 8750 5500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8400 4650 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/usblc6-4.pdf" H 8600 5500 50  0001 C CNN
+	1    8400 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61268415
-P 4700 7150
+P 8400 5550
 AR Path="/6119258E/61268415" Ref="#PWR?"  Part="1" 
 AR Path="/611925EA/61268415" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 4700 6900 50  0001 C CNN
-F 1 "GND" H 4705 6977 50  0000 C CNN
-F 2 "" H 4700 7150 50  0001 C CNN
-F 3 "" H 4700 7150 50  0001 C CNN
-	1    4700 7150
+F 0 "#PWR019" H 8400 5300 50  0001 C CNN
+F 1 "GND" H 8405 5377 50  0000 C CNN
+F 2 "" H 8400 5550 50  0001 C CNN
+F 3 "" H 8400 5550 50  0001 C CNN
+	1    8400 5550
 	1    0    0    -1  
 $EndComp
 Text Label 3900 5100 0    50   ~ 0
@@ -129,26 +103,26 @@ Connection ~ 4400 5100
 Wire Wire Line
 	4400 5200 4400 5300
 Connection ~ 4400 5200
-Text Label 3800 6650 0    50   ~ 0
+Text Label 7500 5050 0    50   ~ 0
 USB_D-
-Text Label 3800 6850 0    50   ~ 0
+Text Label 7500 5250 0    50   ~ 0
 USB_D+
 Wire Wire Line
-	3800 6850 4300 6850
+	7500 5250 8000 5250
 Wire Wire Line
-	3800 6650 4300 6650
+	7500 5050 8000 5050
 Text Label 3900 4700 0    50   ~ 0
 USB_CC1
 Text Label 3900 4800 0    50   ~ 0
 USB_CC2
-Text Label 5600 6650 2    50   ~ 0
+Text Label 9300 5050 2    50   ~ 0
 USB_CC1
-Text Label 5600 6850 2    50   ~ 0
+Text Label 9300 5250 2    50   ~ 0
 USB_CC2
 Wire Wire Line
-	5600 6850 5100 6850
+	9300 5250 8800 5250
 Wire Wire Line
-	5100 6650 5600 6650
+	8800 5050 9300 5050
 Text HLabel 3900 5100 0    50   BiDi ~ 0
 USB_D-
 Text HLabel 3900 5200 0    50   BiDi ~ 0
@@ -163,7 +137,7 @@ U 1 1 612BFE39
 P 3150 4550
 F 0 "JP1" H 2950 4650 50  0000 C CNN
 F 1 "CC1" H 3350 4650 50  0000 C CNN
-F 2 "" H 3150 4550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 3150 4550 50  0001 C CNN
 F 3 "~" H 3150 4550 50  0001 C CNN
 	1    3150 4550
 	1    0    0    -1  
@@ -174,7 +148,7 @@ U 1 1 612C4040
 P 3150 4950
 F 0 "JP2" H 2950 5050 50  0000 C CNN
 F 1 "CC2" H 3350 5050 50  0000 C CNN
-F 2 "" H 3150 4950 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 3150 4950 50  0001 C CNN
 F 3 "~" H 3150 4950 50  0001 C CNN
 	1    3150 4950
 	1    0    0    1   
@@ -185,7 +159,7 @@ U 1 1 612C66BB
 P 2550 4550
 F 0 "R5" V 2450 4400 50  0000 C CNN
 F 1 "5k1" V 2450 4700 50  0000 C CNN
-F 2 "" V 2480 4550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2480 4550 50  0001 C CNN
 F 3 "~" H 2550 4550 50  0001 C CNN
 	1    2550 4550
 	0    1    1    0   
@@ -206,7 +180,7 @@ U 1 1 612C9DDA
 P 2550 4950
 F 0 "R6" V 2450 4800 50  0000 C CNN
 F 1 "5k1" V 2450 5100 50  0000 C CNN
-F 2 "" V 2480 4950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2480 4950 50  0001 C CNN
 F 3 "~" H 2550 4950 50  0001 C CNN
 	1    2550 4950
 	0    1    1    0   
@@ -349,4 +323,8 @@ Connection ~ 7400 1850
 Wire Wire Line
 	7600 1650 8000 1650
 Connection ~ 7600 1650
+Text HLabel 4300 4400 1    50   Output ~ 0
+VBUS
+Text HLabel 8400 4750 1    50   Output ~ 0
+VBUS
 $EndSCHEMATC
