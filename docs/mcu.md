@@ -48,4 +48,24 @@ microSD SPI | SPI3
 main CAN | FDCAN1
 ext UART | USART1
 ext CAN | FDCAN2
-ext I2C | I2C1
+ext I2C | I2C4
+ext SPI | SPI1
+
+# extension connector pinout
+
+
+
+
+signal | signal
+-----|-----
+PA4 | PA5
+PA6 | PA7
+PC4 | PC5 
+PB0 | PB1
+PB2 | PE7
+PE8 | PE9
+PE10 | PE11
+PE12 | PE13
+PE14 | PE15
+PB12 | PB13
+PC6 | PC7

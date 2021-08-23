@@ -24,21 +24,10 @@ L Device:Fuse F1
 U 1 1 61282FF4
 P 1700 1350
 F 0 "F1" V 1600 1200 50  0000 C CNN
-F 1 "200mA" V 1600 1500 50  0000 C CNN
-F 2 "" V 1630 1350 50  0001 C CNN
-F 3 "~" H 1700 1350 50  0001 C CNN
+F 1 "500mA" V 1600 1500 50  0000 C CNN
+F 2 "Littelfuse-154:Littelfuse-154" V 1630 1350 50  0001 C CNN
+F 3 "https://hu.mouser.com/datasheet/2/240/Littelfuse_Fuse_154_154T_154L_154TL_Datasheet_pdf-365375.pdf" H 1700 1350 50  0001 C CNN
 	1    1700 1350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Fuse F2
-U 1 1 61283881
-P 1700 1950
-F 0 "F2" V 1600 1800 50  0000 C CNN
-F 1 "200mA" V 1600 2100 50  0000 C CNN
-F 2 "" V 1630 1950 50  0001 C CNN
-F 3 "~" H 1700 1950 50  0001 C CNN
-	1    1700 1950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -84,8 +73,8 @@ L Device:D_TVS D2
 U 1 1 612A1A78
 P 4150 1650
 F 0 "D2" V 4104 1730 50  0000 L CNN
-F 1 "SMCJ26CA" V 4195 1730 50  0000 L CNN
-F 2 "Diode_SMD:D_SMC" H 4150 1650 50  0001 C CNN
+F 1 "SMAJ26CA" V 4195 1730 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 4150 1650 50  0001 C CNN
 F 3 "~" H 4150 1650 50  0001 C CNN
 	1    4150 1650
 	0    1    1    0   
@@ -176,7 +165,7 @@ $EndComp
 Text Notes 700  850  0    100  ~ 20
 Power protection
 Text Notes 1450 2150 0    50   ~ 0
-Socketed fuses
+Socketed fuses\nLittelfuse 154
 $Comp
 L Device:Q_DUAL_PMOS_S1G1D2S2G2D1 Q3
 U 1 1 617EFAA2
@@ -450,31 +439,31 @@ Wire Wire Line
 $Comp
 L power:GND #PWR013
 U 1 1 614A2B10
-P 4900 6250
-F 0 "#PWR013" H 4900 6000 50  0001 C CNN
-F 1 "GND" H 4900 6100 50  0000 C CNN
-F 2 "" H 4900 6250 50  0001 C CNN
-F 3 "" H 4900 6250 50  0001 C CNN
-	1    4900 6250
+P 5000 6250
+F 0 "#PWR013" H 5000 6000 50  0001 C CNN
+F 1 "GND" H 5000 6100 50  0000 C CNN
+F 2 "" H 5000 6250 50  0001 C CNN
+F 3 "" H 5000 6250 50  0001 C CNN
+	1    5000 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L vref:PGND #PWR017
 U 1 1 614AFB99
-P 5100 6250
-F 0 "#PWR017" H 5100 6000 50  0001 C CNN
-F 1 "PGND" H 5100 6100 50  0000 C CNN
-F 2 "" H 5100 6250 50  0001 C CNN
-F 3 "" H 5100 6250 50  0001 C CNN
-	1    5100 6250
+P 5200 6250
+F 0 "#PWR017" H 5200 6000 50  0001 C CNN
+F 1 "PGND" H 5200 6100 50  0000 C CNN
+F 2 "" H 5200 6250 50  0001 C CNN
+F 3 "" H 5200 6250 50  0001 C CNN
+	1    5200 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 6250 5100 6150
+	5200 6250 5200 6150
 Wire Wire Line
-	5100 6150 4900 6150
+	5200 6150 5000 6150
 Wire Wire Line
-	4900 6250 4900 6150
+	5000 6250 5000 6150
 $Comp
 L power:GND #PWR012
 U 1 1 61478AF4
@@ -565,17 +554,6 @@ F 3 "~" H 5400 4950 50  0001 C CNN
 	1    5400 4950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:L_Small L2
-U 1 1 614D8627
-P 4800 4750
-F 0 "L2" V 4850 4850 50  0000 C CNN
-F 1 "15u" V 4850 4650 50  0000 C CNN
-F 2 "" H 4800 4750 50  0001 C CNN
-F 3 "~" H 4800 4750 50  0001 C CNN
-	1    4800 4750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4500 4150 5000 4150
 Wire Wire Line
@@ -649,42 +627,39 @@ U 1 1 614C07A1
 P 4800 3950
 F 0 "L1" V 4850 4050 50  0000 C CNN
 F 1 "22u" V 4850 3850 50  0000 C CNN
-F 2 "" H 4800 3950 50  0001 C CNN
-F 3 "~" H 4800 3950 50  0001 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-80xx_HandSoldering" H 4800 3950 50  0001 C CNN
+F 3 "https://hu.mouser.com/datasheet/2/396/wound04_e-1290968.pdf" H 4800 3950 50  0001 C CNN
+F 4 "TaiyoYuden NRS8040T220MJGJ" V 4800 3950 50  0001 C CNN "PartNo"
 	1    4800 3950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4900 6150 4900 5950
-Connection ~ 4900 6150
+	5000 6150 5000 5950
+Connection ~ 5000 6150
 Wire Wire Line
-	4800 6150 4900 6150
+	4900 6150 5000 6150
 Wire Wire Line
-	4900 5950 4800 5950
-Wire Wire Line
-	4600 6150 4500 6150
-Wire Wire Line
-	4500 5950 4600 5950
+	5000 5950 4900 5950
 $Comp
 L Device:C_Small C22
 U 1 1 614965C6
-P 4700 6150
-F 0 "C22" V 4600 6050 50  0000 C CNN
-F 1 "1u" V 4600 6250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4700 6150 50  0001 C CNN
-F 3 "~" H 4700 6150 50  0001 C CNN
-	1    4700 6150
+P 4800 6150
+F 0 "C22" V 4700 6050 50  0000 C CNN
+F 1 "1u" V 4700 6250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4800 6150 50  0001 C CNN
+F 3 "~" H 4800 6150 50  0001 C CNN
+	1    4800 6150
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C21
 U 1 1 61495E1E
-P 4700 5950
-F 0 "C21" V 4600 5850 50  0000 C CNN
-F 1 "1u" V 4600 6050 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4700 5950 50  0001 C CNN
-F 3 "~" H 4700 5950 50  0001 C CNN
-	1    4700 5950
+P 4800 5950
+F 0 "C21" V 4700 5850 50  0000 C CNN
+F 1 "1u" V 4700 6050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4800 5950 50  0001 C CNN
+F 3 "~" H 4800 5950 50  0001 C CNN
+	1    4800 5950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -752,17 +727,6 @@ NoConn ~ 3000 4750
 NoConn ~ 3000 4650
 NoConn ~ 3000 4450
 NoConn ~ 3000 4350
-$Comp
-L MAX17521ATG_:MAX17521 U1
-U 1 1 61419DB0
-P 3750 5250
-F 0 "U1" H 4400 6900 50  0000 C CNN
-F 1 "MAX17521" H 3750 6900 50  0000 C CNN
-F 2 "MAX17521:QFN50P500X400X80-25N" H 3100 6400 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX17521.pdf" H 3100 6400 50  0001 C CNN
-	1    3750 5250
-	1    0    0    -1  
-$EndComp
 Text Notes 700  3550 0    100  ~ 20
 3.3V, 5V
 Wire Wire Line
@@ -797,8 +761,8 @@ F 3 "" H 8350 2000 50  0001 C CNN
 	1    8350 2000
 	1    0    0    -1  
 $EndComp
-Text Notes 7000 1500 0    50   ~ 0
-Resettable\npolyfuse
+Text Notes 7150 1300 0    50   ~ 0
+PPTC fuse\nBelFuse 0ZCJ0025FF2E
 Wire Wire Line
 	7750 1600 7650 1600
 $Comp
@@ -806,9 +770,9 @@ L Device:Polyfuse F3
 U 1 1 612803F8
 P 7500 1600
 F 0 "F3" V 7300 1600 50  0000 C CNN
-F 1 "200mA" V 7400 1600 50  0000 C CNN
-F 2 "" H 7550 1400 50  0001 L CNN
-F 3 "~" H 7500 1600 50  0001 C CNN
+F 1 "500mA" V 7400 1600 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 7550 1400 50  0001 L CNN
+F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf" H 7500 1600 50  0001 C CNN
 	1    7500 1600
 	0    1    1    0   
 $EndComp
@@ -1019,4 +983,72 @@ Wire Wire Line
 	6850 1500 6850 1600
 Wire Wire Line
 	6850 1600 7350 1600
+$Comp
+L Device:L_Small L2
+U 1 1 61247B76
+P 4800 4750
+F 0 "L2" V 4850 4850 50  0000 C CNN
+F 1 "15u" V 4850 4650 50  0000 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-80xx_HandSoldering" H 4800 4750 50  0001 C CNN
+F 3 "https://hu.mouser.com/datasheet/2/396/wound04_e-1290968.pdf" H 4800 4750 50  0001 C CNN
+F 4 "TaiyoYuden NRS8040T150MJGJ" V 4800 4750 50  0001 C CNN "PartNo"
+	1    4800 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse F2
+U 1 1 6124AA85
+P 1700 1950
+F 0 "F2" V 1600 1800 50  0000 C CNN
+F 1 "500mA" V 1600 2100 50  0000 C CNN
+F 2 "Littelfuse-154:Littelfuse-154" V 1630 1950 50  0001 C CNN
+F 3 "https://hu.mouser.com/datasheet/2/240/Littelfuse_Fuse_154_154T_154L_154TL_Datasheet_pdf-365375.pdf" H 1700 1950 50  0001 C CNN
+	1    1700 1950
+	0    1    1    0   
+$EndComp
+Text Label 4500 3950 0    50   ~ 0
+LX1
+Text Label 4500 4150 0    50   ~ 0
+FB1
+Text Label 4500 4750 0    50   ~ 0
+LX2
+Text Label 4500 4950 0    50   ~ 0
+FB2
+Text Label 4500 5950 0    50   ~ 0
+VCC1
+Text Label 4500 6150 0    50   ~ 0
+VCC2
+Wire Wire Line
+	4500 5950 4700 5950
+Wire Wire Line
+	4500 6150 4700 6150
+Text Label 3000 6050 2    50   ~ 0
+COMP1
+Text Label 3000 6550 2    50   ~ 0
+COMP2
+$Comp
+L MAX17521ATG_:MAX17521 U1
+U 1 1 61419DB0
+P 3750 5250
+F 0 "U1" H 4400 6900 50  0000 C CNN
+F 1 "MAX17521" H 3750 6900 50  0000 C CNN
+F 2 "MAX17521:QFN50P500X400X80-25N" H 3100 6400 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX17521.pdf" H 3100 6400 50  0001 C CNN
+	1    3750 5250
+	1    0    0    -1  
+$EndComp
+Text Label 3000 5450 2    50   ~ 0
+SS1
+Text Label 3000 5650 2    50   ~ 0
+SS2
+Text Label 2900 5050 2    50   ~ 0
+UVLO
+Text Label 3000 4350 2    50   ~ 0
+FSEL
+Text Label 3000 4450 2    50   ~ 0
+SYNC
+Text Label 3000 4650 2    50   ~ 0
+MODE1
+Text Label 3000 4750 2    50   ~ 0
+MODE2
 $EndSCHEMATC

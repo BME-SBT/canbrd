@@ -38,7 +38,7 @@ AR Path="/6119258E/612683F2" Ref="J?"  Part="1"
 AR Path="/611925EA/612683F2" Ref="J1"  Part="1" 
 F 0 "J1" H 4570 5039 50  0000 R CNN
 F 1 "USB_C_Receptacle_USB2.0" H 4570 4948 50  0000 R CNN
-F 2 "" H 5150 5100 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 5150 5100 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5150 5100 50  0001 C CNN
 	1    5000 5100
 	-1   0    0    -1  
@@ -327,4 +327,223 @@ Text HLabel 4300 4400 1    50   Output ~ 0
 VBUS
 Text HLabel 8400 4750 1    50   Output ~ 0
 VBUS
+Text HLabel 1450 1200 0    50   Input ~ 0
+SD_nSS
+Text HLabel 1450 1300 0    50   Input ~ 0
+SD_MOSI
+Text HLabel 1450 1500 0    50   Input ~ 0
+SD_SCK
+Text HLabel 1450 1700 0    50   Output ~ 0
+SD_MISO
+Wire Wire Line
+	1450 1200 1650 1200
+Wire Wire Line
+	1650 1300 1450 1300
+Wire Wire Line
+	1450 1500 1650 1500
+Wire Wire Line
+	1650 1700 1450 1700
+NoConn ~ 1650 1100
+NoConn ~ 1650 1800
+$Comp
+L power:GND #PWR0101
+U 1 1 6126BCC9
+P 1450 1600
+F 0 "#PWR0101" H 1450 1350 50  0001 C CNN
+F 1 "GND" V 1455 1472 50  0000 R CNN
+F 2 "" H 1450 1600 50  0001 C CNN
+F 3 "" H 1450 1600 50  0001 C CNN
+	1    1450 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 6126CAFB
+P 1450 1400
+F 0 "#PWR0102" H 1450 1250 50  0001 C CNN
+F 1 "+3.3V" V 1465 1528 50  0000 L CNN
+F 2 "" H 1450 1400 50  0001 C CNN
+F 3 "" H 1450 1400 50  0001 C CNN
+	1    1450 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 1400 1650 1400
+Wire Wire Line
+	1650 1600 1450 1600
+$Comp
+L power:GND #PWR0103
+U 1 1 6126F0F6
+P 3450 2100
+F 0 "#PWR0103" H 3450 1850 50  0001 C CNN
+F 1 "GND" H 3455 1927 50  0000 C CNN
+F 2 "" H 3450 2100 50  0001 C CNN
+F 3 "" H 3450 2100 50  0001 C CNN
+	1    3450 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2100 3450 2000
+Wire Wire Line
+	3450 2000 3350 2000
+$Comp
+L Connector:Micro_SD_Card_Det J3
+U 1 1 6127359F
+P 2550 1500
+F 0 "J3" H 2500 2317 50  0000 C CNN
+F 1 "Micro_SD_Card_Det" H 2500 2226 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Molex_104031-0811" H 4600 2200 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1040310811_MEMORY_CARD_SOCKET.pdf" H 2550 1600 50  0001 C CNN
+	1    2550 1500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1650 1900
+NoConn ~ 1650 2000
+$Comp
+L Connector:RJ45_Shielded J5
+U 1 1 6127DBBD
+P 10600 1700
+F 0 "J5" H 10300 2250 50  0000 R CNN
+F 1 "RJHSE5380" H 10600 2250 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 10600 1725 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/modular-jacks-rjhse5380.html" V 10600 1725 50  0001 C CNN
+	1    10600 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45_Shielded J4
+U 1 1 612878E8
+P 9200 1700
+F 0 "J4" H 8900 2250 50  0000 R CNN
+F 1 "RJHSE5380" H 9200 2250 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 9200 1725 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/modular-jacks-rjhse5380.html" V 9200 1725 50  0001 C CNN
+	1    9200 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1300 10200 1300
+Wire Wire Line
+	10200 1400 9600 1400
+Wire Wire Line
+	9600 1500 10200 1500
+Wire Wire Line
+	10200 1600 9600 1600
+Wire Wire Line
+	9600 1700 10200 1700
+Wire Wire Line
+	10200 1800 9600 1800
+Wire Wire Line
+	9600 1900 10200 1900
+Wire Wire Line
+	10200 2000 9600 2000
+Wire Wire Line
+	9200 2200 9200 2300
+Wire Wire Line
+	9200 2300 9900 2300
+Wire Wire Line
+	10600 2300 10600 2200
+$Comp
+L Jumper:Jumper_2_Open JP4
+U 1 1 61292BB8
+P 9900 2500
+F 0 "JP4" V 9854 2598 50  0000 L CNN
+F 1 "Jumper_2_Open" V 9945 2598 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9900 2500 50  0001 C CNN
+F 3 "~" H 9900 2500 50  0001 C CNN
+	1    9900 2500
+	0    1    1    0   
+$EndComp
+Connection ~ 9900 2300
+Wire Wire Line
+	9900 2300 10600 2300
+$Comp
+L power:GND #PWR057
+U 1 1 61293E07
+P 9900 2700
+F 0 "#PWR057" H 9900 2450 50  0001 C CNN
+F 1 "GND" H 9905 2527 50  0000 C CNN
+F 2 "" H 9900 2700 50  0001 C CNN
+F 3 "" H 9900 2700 50  0001 C CNN
+	1    9900 2700
+	1    0    0    -1  
+$EndComp
+Text Label 9700 2000 0    50   ~ 0
+TX+
+Text Label 9700 1900 0    50   ~ 0
+TX-
+Text Label 9700 1800 0    50   ~ 0
+RX+
+Text Label 9700 1500 0    50   ~ 0
+RX-
+Text Label 9700 1600 0    50   ~ 0
+CANH
+Text Label 9700 1700 0    50   ~ 0
+CANL
+Text Label 8000 1650 2    50   ~ 0
+CANH
+Text Label 8000 1850 2    50   ~ 0
+CANL
+$Comp
+L Device:C_Small C27
+U 1 1 61405142
+P 4350 1050
+F 0 "C27" H 4442 1096 50  0000 L CNN
+F 1 "1u" H 4442 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4350 1050 50  0001 C CNN
+F 3 "~" H 4350 1050 50  0001 C CNN
+	1    4350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C28
+U 1 1 6140537C
+P 4650 1050
+F 0 "C28" H 4742 1096 50  0000 L CNN
+F 1 "100n" H 4742 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4650 1050 50  0001 C CNN
+F 3 "~" H 4650 1050 50  0001 C CNN
+	1    4650 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6140FB2A
+P 4500 1250
+F 0 "#PWR?" H 4500 1000 50  0001 C CNN
+F 1 "GND" H 4505 1077 50  0000 C CNN
+F 2 "" H 4500 1250 50  0001 C CNN
+F 3 "" H 4500 1250 50  0001 C CNN
+	1    4500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 614104B3
+P 4500 850
+F 0 "#PWR?" H 4500 700 50  0001 C CNN
+F 1 "+5V" H 4515 1023 50  0000 C CNN
+F 2 "" H 4500 850 50  0001 C CNN
+F 3 "" H 4500 850 50  0001 C CNN
+	1    4500 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 850  4350 850 
+Wire Wire Line
+	4350 850  4350 950 
+Wire Wire Line
+	4500 850  4650 850 
+Wire Wire Line
+	4650 850  4650 950 
+Connection ~ 4500 850 
+Wire Wire Line
+	4650 1150 4650 1250
+Wire Wire Line
+	4650 1250 4500 1250
+Wire Wire Line
+	4500 1250 4350 1250
+Wire Wire Line
+	4350 1250 4350 1150
+Connection ~ 4500 1250
 $EndSCHEMATC

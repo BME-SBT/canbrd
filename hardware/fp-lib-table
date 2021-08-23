@@ -5,4 +5,7 @@
   (lib (name STM32G474VET6)(type KiCad)(uri ${KIPRJMOD}/parts/STM32G474VET6)(options "")(descr ""))
   (lib (name TBU-CA)(type KiCad)(uri ${KIPRJMOD}/parts/TBU-CA)(options "")(descr ""))
   (lib (name MAX17521)(type KiCad)(uri ${KIPRJMOD}/parts/MAX17521)(options "")(descr ""))
+  (lib (name Littelfuse-154)(type KiCad)(uri ${KIPRJMOD}/parts/Littelfuse-154/Littelfuse-154.pretty)(options "")(descr ""))
+  (lib (name OQ0271)(type KiCad)(uri ${KIPRJMOD}/parts/OQ0271)(options "")(descr ""))
+  (lib (name RKB2SJ)(type KiCad)(uri ${KIPRJMOD}/parts/RKB2SJ/RKB2SJ.pretty)(options "")(descr ""))
 )
