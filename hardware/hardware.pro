@@ -1,4 +1,4 @@
-update=Tue 24 Aug 2021 12:32:10 AM CEST
+update=Tue 24 Aug 2021 03:54:38 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -26,7 +26,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=hardware.net
-CopperLayerCount=4
+CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -42,16 +42,15 @@ TrackWidth1=0.25
 TrackWidth2=0.3
 TrackWidth3=0.5
 TrackWidth4=1
+TrackWidth5=2
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.6
 ViaDrill2=0.3
 ViaDiameter3=0.8
-ViaDrill3=0.3
+ViaDrill3=0.5
 ViaDiameter4=1
-ViaDrill4=0.3
-ViaDiameter5=1
-ViaDrill5=0.6
+ViaDrill4=0.7
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -85,12 +84,12 @@ Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=1
-Enabled=1
+Type=0
+Enabled=0
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=1
-Enabled=1
+Type=0
+Enabled=0
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
