@@ -401,9 +401,9 @@ Text Label 9700 1800 0    50   ~ 0
 RX+
 Text Label 9700 1500 0    50   ~ 0
 RX-
-Text Label 9700 1400 0    50   ~ 0
-CANH
 Text Label 9700 1300 0    50   ~ 0
+CANH
+Text Label 9700 1400 0    50   ~ 0
 CANL
 $Comp
 L Device:C_Small C27
